@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #111;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #000;
+    color: #fff;
+}
+
+.navbar nav a {
+    color: #fff;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.logo {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero {
+    height: 90vh;
+    background: linear-gradient(to bottom right, #000, #333);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    max-width: 800px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.section {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.section.dark {
+    background: #111;
+    color: #fff;
+}
+
+.grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card {
+    background: #fff;
+    padding: 30px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.section.dark .card {
+    background: #222;
+}
+
+.card.highlight {
+    border: 2px solid gold;
+}
+
+.price {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.primary {
+    background: gold;
+    color: #000;
+}
+
+.secondary {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+form {
+    max-width: 500px;
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
